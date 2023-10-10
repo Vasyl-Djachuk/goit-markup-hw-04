@@ -69,7 +69,7 @@ img {
 .item-underline-list {
   position: relative;
 }
-.item-underline::after {
+.item-underline:hover::after {
   position: absolute;
   display: block;
   content: '';
