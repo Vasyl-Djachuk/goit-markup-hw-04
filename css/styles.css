@@ -78,7 +78,7 @@ img {
   position: absolute;
   left: 0;
   bottom: -1px;
-  background-color: #7a85f8;
+  background-color: #404bbf;
   height: 4px;
   width: 100%;
   border-radius: 2px;
@@ -325,9 +325,7 @@ img {
   top: 0;
   left: 0;
   transform: translateY(100%);
-  transition-property: transform, box-shadow;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   padding: 40px 32px;
 }
 .portfolio-main-title {
