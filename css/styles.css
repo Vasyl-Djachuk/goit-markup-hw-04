@@ -33,7 +33,6 @@ img {
 
 .header-container {
   display: flex;
-  justify-content: space-between;
 }
 .header-nav {
   display: flex;
@@ -86,6 +85,9 @@ img {
 .navigation-list {
   display: flex;
   gap: 40px;
+}
+.address-container {
+  margin-left: auto;
 }
 .address-list {
   display: flex;
